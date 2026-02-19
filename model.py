@@ -79,7 +79,7 @@ def main():
     predictions = []
     actual = []
 
-    k = 5
+    k = 3
 
     for row in test:
         output = predict_classification(train, row, k)
